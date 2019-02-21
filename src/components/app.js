@@ -1,6 +1,12 @@
 import React from 'react';
+import Scrapbook from './scrapbook';
+import './app.css';
 
-export default = () => {
-    return <h1>My first React function component</h1>
+export default () => {
+    return (
+        <div className="main-container">
+            <h1 className="main-title">Dookster's Memories</h1>
+            <Scrapbook/>
+        </div>
+    )
 }
-
