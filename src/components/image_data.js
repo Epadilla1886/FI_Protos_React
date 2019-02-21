@@ -14,7 +14,7 @@ export default [
     {
         src: corgi,
         style: {
-            left: '5%',
+            left: '13%',
             transform: 'rotate(-10deg)'
         }
     },
